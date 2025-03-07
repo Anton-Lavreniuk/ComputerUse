@@ -25,6 +25,11 @@ class Model:
             api_key=os.environ.get("GEMINI_API_KEY"),
             temperature=0
         )
+    GEMINI_2_0_FLASH = GeminiMultiModal(
+            model_name="models/gemini-2.0-flash",
+            api_key=os.environ.get("GEMINI_API_KEY"),
+            temperature=0
+        )
     GPT_4_O = OpenAIMultiModal(model="gpt-4o", api_key=os.environ.get("OPENAI_API_KEY"), image_detail="high", temperature=0)
 
     # TODO https://huggingface.co/CohereForAI/aya-vision-32b
