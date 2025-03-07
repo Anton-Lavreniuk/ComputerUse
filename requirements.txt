@@ -1,0 +1,13 @@
+llama-index
+openai
+pillow
+pyautogui
+pynput
+customtkinter
+python-dotenv
+mss
+numpy
+llama-index-llms-gemini
+llama-index-multi-modal-llms-gemini
+llama-index-multi-modal-llms-huggingface
+pip install gradio_client
