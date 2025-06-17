@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+src/diploma_gui_agent/__init__.py
+src/diploma_gui_agent/gui.py
+src/diploma_gui_agent/llm_tools.py
+src/diploma_gui_agent/main.py
+src/diploma_gui_agent/models.py
+src/diploma_gui_agent/processor.py
+src/diploma_gui_agent/prompt_storage.py
+src/diploma_gui_agent.egg-info/PKG-INFO
+src/diploma_gui_agent.egg-info/SOURCES.txt
+src/diploma_gui_agent.egg-info/dependency_links.txt
+src/diploma_gui_agent.egg-info/requires.txt
+src/diploma_gui_agent.egg-info/top_level.txt

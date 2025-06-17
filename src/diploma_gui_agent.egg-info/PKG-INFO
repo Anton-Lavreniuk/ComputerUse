@@ -1,3 +1,24 @@
+Metadata-Version: 2.4
+Name: diploma_gui_agent
+Version: 0.1.0
+Summary: GUI-based computer-control agent
+Author-email: Anton Lavreniuk <lvrnk.a.o@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: llama-index
+Requires-Dist: llama-index-llms-gemini
+Requires-Dist: llama-index-multi-modal-llms-gemini
+Requires-Dist: llama-index-multi-modal-llms-huggingface
+Requires-Dist: openai
+Requires-Dist: pillow
+Requires-Dist: pyautogui
+Requires-Dist: pynput
+Requires-Dist: customtkinter
+Requires-Dist: python-dotenv
+Requires-Dist: mss
+Requires-Dist: numpy
+Requires-Dist: gradio_client
+
 # Computer use agent
 
 This is a simple program that uses Vision Language Models (VLMs) and tool calling to perform user-specified tasks.

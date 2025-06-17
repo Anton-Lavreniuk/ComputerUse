@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diploma_gui_agent"
+version = "0.1.0"
+description = "GUI-based computer-control agent"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "llama-index",
+  "llama-index-llms-gemini",
+  "llama-index-multi-modal-llms-gemini",
+  "llama-index-multi-modal-llms-huggingface",
+  "llama-index-llms-openrouter",
+  "openai",
+  "pillow",
+  "pyautogui",
+  "pynput",
+  "customtkinter",
+  "python-dotenv",
+  "mss",
+  "numpy",
+  "gradio_client"
+]
+
+authors = [
+  { name = "Anton Lavreniuk", email = "lvrnk.a.o@gmail.com" }
+]
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["diploma_gui_agent"]

@@ -1,0 +1,13 @@
+llama-index
+llama-index-llms-gemini
+llama-index-multi-modal-llms-gemini
+llama-index-multi-modal-llms-huggingface
+openai
+pillow
+pyautogui
+pynput
+customtkinter
+python-dotenv
+mss
+numpy
+gradio_client
